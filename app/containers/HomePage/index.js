@@ -13,6 +13,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Navbar from 'components/Navbar';
 import abiJson from './abi.json';
+import logo from './logo.jpg';
 
 // let web3js;
 
@@ -308,10 +309,7 @@ export default class HomePage extends React.PureComponent {
         {this.state.userType === '' && (
           <Jumbo>
             <Navbar />
-            <Logo
-              src="http://adisabilitylawyer.com/adl/uploads/2015/05/medical-records-5.21.15.jpg"
-              alt="jumbo logo"
-            />
+            <Logo src={logo} alt="jumbo logo" />
             <Headline>A new home for your medical records</Headline>
             <Button onClick={this.getInfo}>Get started</Button>
           </Jumbo>
