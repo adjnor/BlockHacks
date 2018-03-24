@@ -1,6 +1,6 @@
 ## BlockHacks - EtherMed
 
-EtherMed is a decentralized using the Ethereum blockchain to pay for health services and track health records and prescriptions
+EtherMed is a decentralized app using the Ethereum blockchain to pay for health services and track health records and prescriptions
 
 ## How to run
 
